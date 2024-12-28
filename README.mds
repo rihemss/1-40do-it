@@ -23,7 +23,8 @@
             const response = await fetch('https://api.openai.com/v1/engines/davinci-codex/completions', {
                 method: 'POST',
                 headers: {
-                    'Authorization': 'Bearer YOUR_OPENAI_API_KEY', // أدخل مفتاح API هنا
+                    'Authorization': 'B
+                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
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
